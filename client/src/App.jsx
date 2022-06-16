@@ -1,17 +1,19 @@
-import { Navbar, Welcome, Footer, Services, Transactions  } from "./components";
+import { Navbar, Footer, Loader,Services,Transactions, Welcome } from "./components"
 
-const App = () => {
+const  App =() => {
+
+
   return (
     <div className="min-h-screen">
       <div className="gradient-bg-welcome">
-        <Navbar/>
-        <Welcome/>
+        <Navbar />
+        <Welcome />
       </div>
-      <Services/>
-      <Transactions/>
-      <Footer/>
+      <Services />
+      <Transactions />
+      <Footer />         
     </div>
-  )
+  );
 }
 
 export default App
